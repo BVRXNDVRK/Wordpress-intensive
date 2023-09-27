@@ -38,6 +38,28 @@
     color: #EFEFEF;
 }
 
+.button {
+    width: 313px;
+    height: 72px;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    text-align: center;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    font-family: RobotoCondensed;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
 .promo {
     padding: 38px 0 60px 0;
     height: 800px;
@@ -122,25 +144,7 @@
 }
 
 .promo__btn {
-    width: 313px;
-    height: 72px;
-    flex-shrink: 0;
-    display: block;
-    margin: 0 auto;
     margin-bottom: 71px;
-    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
-    color: #FFF;
-    text-align: center;
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-    font-family: RobotoCondensed;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
 }
 
 .promo__more {
@@ -276,10 +280,6 @@
     border-radius: 50%;
 }
 
-.finish__item-img {
-
-}
-
 .finish__item-text {
     color: #EFEFEF;
     text-align: center;
@@ -289,3 +289,25 @@
     font-weight: 300;
     line-height: 20px; 
 }
+
+.gift {
+    min-height: 628px;
+    padding: 86px 0 87px 0;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.gift__img {
+    margin-bottom: 42px;
+}
+
+.gift__text {
+    margin-bottom: 52px;
+    color: #252525;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+}
+
