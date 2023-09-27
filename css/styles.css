@@ -311,3 +311,40 @@
     text-align: center;
 }
 
+.first {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+    text-align: center;
+}
+
+.first__img {
+    margin-bottom: 37px;
+}
+
+.first__title {
+    margin-bottom: 30px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.first__date {
+    margin-bottom: 25px;  
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;  
+}
+
+.first__subtitle {
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
